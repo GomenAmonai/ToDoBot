@@ -77,7 +77,7 @@ scheduler = BackgroundScheduler(timezone=TIMEZONE)
 scheduler.start()
 
 # Укажите здесь ваш chat_id для получения уведомлений об ошибках (без кавычек)
-ADMIN_CHAT_ID = 6698369098  # Замените на ваш реальный chat_id
+ADMIN_CHAT_ID = ''  # Замените на ваш реальный chat_id
 
 # Время напоминания по умолчанию (в минутах)
 DEFAULT_NOTIFICATION_TIME = 5
@@ -1242,7 +1242,7 @@ def schedule_add_handler(update: Update, context: CallbackContext):
 
 def main():
     # Вставьте свой токен бота здесь
-    TOKEN = '8167716193:AAHAYFHZcQ_H8F4mmQazux5nnWWVnv-si3g'  # Замените на ваш реальный токен бота
+    TOKEN = ''  # Замените на ваш реальный токен бота
 
     global updater
     updater = Updater(TOKEN, use_context=True)
